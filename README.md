@@ -21,6 +21,7 @@ This creates CMake files in `build` directory.
  ./setupCmake.sh
 ```
 This script is just bash `cmake -B build`.
+
 **Build (compile) project**
 
 Creates all necessary files, also in `build` directory.
@@ -28,6 +29,7 @@ Creates all necessary files, also in `build` directory.
  ./compile.sh
 ```
 This script is just bash `cd build && make && cd ..`.
+
 **Run project**
 
 Another evidence that I'm lazy, guess what it does.
@@ -35,3 +37,4 @@ Another evidence that I'm lazy, guess what it does.
  ./run.sh
 ```
 This script is just bash `cd build && ./run && cd ...`.
+
