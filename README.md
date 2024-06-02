@@ -1,5 +1,5 @@
 # CMake Project Template (Basic)
-My custom simple CMake Template. I'm lazy, so this template is for me (and others if they want) to download.
+My custom simple CMake Template (rather for Linux because of .sh scripts). I'm lazy, so this template is for me (and others if they want) to download.
 This template is fairly simple and very basic, as I mentioned I use it when I want to fast and easly make new project.
 Clone this repo:
 ```
