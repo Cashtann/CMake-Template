@@ -1,6 +1,10 @@
 # CMake Project Template (Basic)
 My custom simple CMake Template. I'm lazy, so this template is for me (and others if they want) to download.
 This template is fairly simple and very basic, as I mentioned I use it when I want to fast and easly make new project.
+Clone this repo:
+```
+gh repo clone Cashtann/CMake-Template
+```
 
 **First of all, you may need to make those bash scripts executable, so in the project directory paste in these commands:**
 ```
