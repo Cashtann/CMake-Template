@@ -27,7 +27,7 @@ This script is just bash `cmake -B build`.
 
 **Build (compile) project**
 
-Creates all necessary files, also in `build` directory.
+Compiles project. Output files (executable and libs) should be somewhere inside `./bin` folder.
  ```
  ./compile.sh
 ```
@@ -35,9 +35,10 @@ This script is just bash `cd build && make && cd ..`.
 
 **Run project**
 
-Another evidence that I'm lazy, guess what it does.
+Runs the executable file. File location may differ depending on *Build mode (Debug/Release*) -> set in the CMakeLists.txt file.
+May not work if file if generated in different directory. Executable file should be somewhere in `./bin` directory.
  ```
  ./run.sh
 ```
-This script is just bash `cd build && ./run && cd ..`.
+This script is bash `cd bin/Linux/Debug && ./run && cd ..`.
 
