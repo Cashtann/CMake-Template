@@ -2,8 +2,8 @@
 #include "log.h"
 
 int main(){
+    Log("test");
+    std::cout << "Hello, world!";
 
-    Log("Test");
-    std::cout << "Hello World!";
     std::cin.get();
 }
