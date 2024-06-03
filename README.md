@@ -39,5 +39,5 @@ Another evidence that I'm lazy, guess what it does.
  ```
  ./run.sh
 ```
-This script is just bash `cd build && ./run && cd ...`.
+This script is just bash `cd build && ./run && cd ..`.
 
