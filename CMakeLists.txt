@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(run)
 
-# build type (Debul/Release)
+# build type (Debug/Release)
 set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CSS_FLAGS} -Wall -Werror -std=c++14")
