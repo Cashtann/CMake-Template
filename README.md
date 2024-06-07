@@ -35,10 +35,11 @@ This script is just bash `cd build && make && cd ..`.
 
 **Run project**
 
-Runs the executable file. File location may differ depending on *Build mode (Debug/Release*) -> set in the CMakeLists.txt file.
-May not work if file if generated in different directory. Executable file should be somewhere in `./bin` directory.
+Compiles project and runs the executable file. 
+File location may differ depending on *Build mode (Debug/Release*) -> set in the CMakeLists.txt file.
+May not work if file if generated in a different directory. Executable file should be somewhere in `./bin` directory.
  ```
  ./run.sh
 ```
-This script is bash `cd bin/Linux/Debug && ./run && cd ..`.
+This script is the same as `compile.sh` but also has `cd bin/Linux/Debug && ./run && cd ..`.
 
