@@ -23,7 +23,7 @@ This creates CMake files in `build` directory.
  ```
  ./setupCmake.sh
 ```
-This script is just bash `cmake -B build`.
+This script is just bash `cmake -B build` (if you want to make it on Windows, you may need to use `cmake -B build -G "MinGW Makefiles"`).
 
 **Build (compile) project**
 
